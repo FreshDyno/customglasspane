@@ -1,0 +1,8 @@
+name: CustomGlassPanePlugin
+version: 1.0
+main: me.freshdyno.customGlassPanePlugin.CustomGlassPanePlugin
+api-version: 1.20
+commands:
+  custompane:
+    description: Crée un panneau de verre personnalisé.
+    usage: /custompane <name>
