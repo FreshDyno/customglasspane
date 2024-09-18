@@ -1,0 +1,14 @@
+name: CustomGlassPanePlugin
+version : 1.0
+main: me.freshdyno.customglasspane.CustomGlassPanePlugin
+api-version: '1.20'
+description: Un plugin qui ajoute des panneaux de verre personnalisés avec une texture.
+commands:
+  givecustomglasspane:
+    description: Donne un panneau de verre personnalisé au joueur.
+    usage: /givecustomglasspane
+    permission: customglasspane.give
+permissions:
+  customglasspane.give:
+    description: Permet d'utiliser la commande /givecustomglasspane.
+    default: op
